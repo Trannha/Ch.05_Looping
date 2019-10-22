@@ -61,6 +61,43 @@ while not done:
 
 
 
+import random
+randomnum=random.randrange(1,4)
+done=False
+rock=1
+paper=2
+scissors=3
+loss = 0
+win = 0
+tie = 0
+question=input("Pick: ")
+print("Rock")
+print("Paper")
+print("Scissors")
+
+if question.lower() == "rock" and randomnum == 1:
+    print("You tied!")
+    tie+=1
+
+
+
+while not done:
+    if randomnum == 1:
+        print("Rock")
+    elif randomnum == 2:
+        print("Paper")
+    else:
+        print("Scissors")
+    quit = input("Do you want to quit? yes or no")
+    if quit.lower() == "yes":
+        done = True
+    elif quit.lower() == "no":
+        done = False
+
+
+
+
+
 
 
 
