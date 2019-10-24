@@ -1,14 +1,15 @@
   #Sign your name: Nha
 
 '''
- 1. Make the following program work.
+1. Make the following program work.
    '''
-  print("This program takes three numbers and returns the sum.")
-  total = 0
-  for i in range(3):
-      var = int(input("Give a number: "))
-      total += var
-  print("The total is:", total)
+
+print("This program takes three numbers and returns the sum.")
+total = 0
+for i in range(3):
+    var = int(input("Give a number: "))
+    total += var
+print("The total is:", total)
   
 
 
@@ -18,12 +19,6 @@
 '''
 for i in range(2,101):
     print(i)
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> Finished el jedi 5 train
 
 '''
   3. Write a program that will use a WHILE loop to count from
@@ -34,13 +29,11 @@ i = 10
 while i > -1:
     print(i)
     i -= 1
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> Finished el jedi 5 train
+
 
 '''
   4. Write a program that prints a random integer from 1 to 10 (inclusive).
@@ -48,11 +41,9 @@ while i > -1:
 import random
 i = random.randrange(11)
 print(i)
-<<<<<<< HEAD
 
 
-=======
->>>>>>> Finished el jedi 5 train
+
 
 
 '''

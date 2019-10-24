@@ -48,3 +48,43 @@ while not done:
 
 
 
+
+ print("This program takes three numbers and returns the sum.")
+  total = 0
+  for i in range(3):
+      var = int(input("Give a number: "))
+      total += var
+  print("The total is:", total)
+
+
+for i in range(2,101):
+    print(i)
+
+    i = 10
+    while i > -1:
+        print(i)
+        i -= 1
+
+        import random
+
+        i = random.randrange(11)
+        print(i)
+
+        total = 0
+        yourmompos = 0
+        yourdadneg = 0
+        yourstepbrozero = 0
+        for i in range(7):
+            nums = int(input("Please give a number: "))
+            total += nums
+            if nums == 0:
+                yourstepbrozero = yourstepbrozero + 1
+            elif nums > 0:
+                yourmompos = yourmompos + 1
+            else:
+                yourdadneg = yourdadneg + 1
+        print(total)
+        print("This is your negative entries: ", yourdadneg)
+        print("This is your positive entries:", yourmompos)
+        print("This is your zero entries: ", yourstepbrozero)
+
