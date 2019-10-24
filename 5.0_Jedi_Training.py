@@ -18,9 +18,12 @@
 '''
 for i in range(2,101):
     print(i)
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> Finished el jedi 5 train
 
 '''
   3. Write a program that will use a WHILE loop to count from
@@ -31,10 +34,13 @@ i = 10
 while i > -1:
     print(i)
     i -= 1
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> Finished el jedi 5 train
 
 '''
   4. Write a program that prints a random integer from 1 to 10 (inclusive).
@@ -42,8 +48,11 @@ while i > -1:
 import random
 i = random.randrange(11)
 print(i)
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> Finished el jedi 5 train
 
 
 '''
@@ -56,3 +65,21 @@ print(i)
      if statements.
       
 '''
+
+total=0
+yourmompos=0
+yourdadneg=0
+yourstepbrozero=0
+for i in range(7):
+    nums=int(input("Please give a number: "))
+    total+= nums
+    if nums == 0:
+        yourstepbrozero = yourstepbrozero + 1
+    elif nums > 0:
+        yourmompos = yourmompos + 1
+    else:
+        yourdadneg = yourdadneg + 1
+print(total)
+print("This is your negative entries: ", yourdadneg)
+print("This is your positive entries:",yourmompos)
+print("This is your zero entries: ", yourstepbrozero)
