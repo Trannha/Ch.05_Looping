@@ -1,17 +1,15 @@
-import random
-headstotal=0
-tailstotal=0
-for i in range(50):
-    rand=random.randrange(0,2)
-    if rand == 0:
-        print("Heads")
-        headstotal=headstotal+1
+distaway=100
+thirst=100
+cameltired=0
+endgoal=300
+print("Welcome to Jojo's Bizarre Sun Run!")
+print("The goal of the game is to run from the Sun towards the safepoint while managing your thirst and camel.")
+start=input("Press s to start. \n")
+if input=="s":
+    done=False
+while not done:
 
-    else:
-        print("Tails")
-        tailstotal=tailstotal+1
-
-totaltotal=headstotal+tailstotal
-print("Heads total:",headstotal)
-print("Tails total:",tailstotal)
-print("Total of both:",totaltotal)
+    print("The Sun is 100 km away.")
+    print("You are full on water/thirst")
+    print("Your camel is not tired")
+    run=input("Press R to run ")
